@@ -92,6 +92,7 @@ const bulbasaur = new Pokemon({
   height: 7,
   weight: 69,
   baseExperience: 64,
+  abilities: ["overgrow", "chlorophyll"],
   types: ["grass", "poison"],
   sprites: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
   stats: [
@@ -109,6 +110,7 @@ const charmander = new Pokemon({
   height: 6,
   weight: 85,
   baseExperience: 62,
+  abilities: ["blaze", "solar-power"],
   types: ["fire"],
   sprites: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
   stats: [
